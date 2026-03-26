@@ -40,5 +40,5 @@ Para validar el firewall, fue necesario realizar las peticiones a la IP específ
 📊 Verificación de Logs
 Para auditar los intentos de conexión bloqueados, se activó el logging de UFW:
 
-**sudo ufw logging on**
-**sudo tail -f /var/log/syslog | grep -i ufw**
+1. **sudo ufw logging on**
+2. **sudo tail -f /var/log/syslog | grep -i ufw**
